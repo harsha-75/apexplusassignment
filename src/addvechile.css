@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .add-vehicle {
+    margin: 20px;
+  }
+  
+  .add-vehicle h2, .add-vehicle h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .add-vehicle h2{
+        margin-top: 0;
+         text-align: left;
+  }
+  .form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    
+  }
+  
+  .form-group {
+    width: 100%;
+    
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input, .form-group select {
+    width: 80%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    background-color: #444;
+    color: #fff;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(255, 255, 255, 0.1);
+  }
+  
+  .form-group input.error {
+    border-color: #FF4500;
+  }
+  
+  .error-message {
+    color: #FF4500;
+    font-size: 12px;
+  }
+  
+  .form-actions {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .addbutton {
+    background-color: green;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+  }
+  
+  .reset-button {
+    background-color: orange;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+  }
+  
+  .goback-button {
+    background-color: skyblue;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #fff;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+
+  .form-actions{
+           display: flex;
+           justify-content: flex-start;
+  }
+
+  
+
+  
+  
